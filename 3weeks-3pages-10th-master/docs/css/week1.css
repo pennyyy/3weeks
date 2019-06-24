@@ -32,7 +32,7 @@
     flex-direction: row;
 }
 .first{
-    background-image: url(/home-work-mockups/week1/assets/hero.jpg);
+    background-image: url(../../home-work-mockups/week1/assets/hero.jpg);
     background-size: 100% 100%;
     height: 600px;
     display: flex;
