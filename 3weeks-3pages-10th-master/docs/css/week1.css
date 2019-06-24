@@ -1,4 +1,144 @@
 * {
   margin: 0; 
   font-family: Helvetica, sans-serif;
+  text-decoration:none;
 }
+.nav{
+    margin-bottom: 10px;
+    display: flex;
+}
+.title{
+    font-size: 20px;
+    float: left;
+    margin-left: 50px;
+    color: rgb(94, 95, 95);
+    flex-direction: row;
+    margin-top: 15px;
+}
+.nav-tab{
+    text-decoration: none;
+    margin-left: 800px;
+    margin-top:25px;
+    flex-direction: row;
+}
+.nav-item{
+    margin-left: 15px;
+}
+.search-icon{
+    float:right;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    flex-direction: row;
+}
+.first{
+    background-image: url(/home-work-mockups/week1/assets/hero.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+.first-text{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 20px;
+}
+.buttons{
+    height: 60px;
+    margin: 10px 2px;
+    text-align: center;
+    display: flex;
+}
+.button-1{    
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin: 5px;
+    color: #fff;
+    width: 150px;
+}
+.button-2{
+    background-color:rgb(86, 32, 235);
+    border: none;
+    margin: 5px;
+    color: #fff;
+    width: 150px;
+}
+.second{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-img{
+    width:400px;
+    margin-top:150px;
+    margin-left: 200px;
+}
+.text{
+    flex-direction: column;
+    margin-left: 260px;
+    display: flex;
+}
+.second-title{
+    margin-top:200px;
+    font-weight: bold;
+    margin-top: 150px;
+    flex-direction: column;
+    font-size: 25px;
+
+}
+.second-text{
+    flex-direction: column;
+    color: rgb(128, 123, 123);
+    margin-right: 270px;
+    margin-top:20px;
+}
+.second-button{
+    background-color:rgb(86, 32, 235);
+    border: none;
+    margin: 5px;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+.third{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+.third-text{
+    flex-direction: column;
+    color: rgb(128, 123, 123);
+    margin-right: 250px;
+    margin-top:20px;
+}
+.third-img{
+    width:400px;
+    margin-top:150px;
+    margin-right: 200px;
+    float:right;
+    flex-direction: row;
+}
+.footer{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background: #020000;
+    color: rgb(255, 255, 255);
+}
+.footer-text{
+    margin-left: 100px; 
+}           
